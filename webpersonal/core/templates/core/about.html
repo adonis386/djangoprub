@@ -1,0 +1,22 @@
+{% extends 'core/base.html' %}
+
+{%block background%}{% load static %}{%static 'core/img/about-bg.jpg' %}{%endblock%}
+
+
+{%block headers%}
+        <h1>Acerca De</h1>
+        <span class="subheading">Biografía</span>
+{%endblock%}
+
+{%block content%}
+<div class="row">
+  <div class="col-lg-3 col-md-4 offset-lg-1">
+          <img class="img-fluid avatar w-90" src="{%static 'core/img/barbie.webp' %}" alt="">
+        </div>
+        <div class="col-lg-7 col-md-8">
+          <h2 class="section-heading">Barbara Planas</h2>   
+          <p>Nacida en Caracas.. A sus 23 años, Barbara Planas ha logrado consolidarse como una de las community managers más prometedoras del panorama digital. Su pasión por las redes sociales se despertó a temprana edad, cuando comenzó a experimentar con blogs y plataformas como MySpace. Esta curiosidad innata la llevó a estudiar Comunicación Digital, donde descubrió su talento para conectar con las personas a través de la pantalla.</p>
+          <p>Durante sus años universitarios, Sofía no solo se destacó por su rendimiento académico, sino también por su activa participación en proyectos de gestión de comunidades online. Colaboró con diversas marcas locales, ayudándolas a construir su presencia en redes sociales y a establecer relaciones sólidas con sus audiencias.</p>
+  </div>
+</div>
+{%endblock%}
